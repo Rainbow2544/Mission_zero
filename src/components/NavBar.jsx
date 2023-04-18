@@ -47,14 +47,15 @@ const NavBar = () => {
 
         {isNavOpen && 
         <div className='dropdownContainer'>
-          <ul >
+          <div id='dropdownSearchBar'>
+            <SearchBar />
+          </div>
+          <ul>
               <li>Home</li>
               <li>Movie</li>
               <li>News</li>
               <li>About us</li>
           </ul>
-          
-          <SearchBar />
         </div>
         }
     </div>

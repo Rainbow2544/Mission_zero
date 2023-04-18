@@ -25,12 +25,10 @@
     cursor: pointer;
 }
 .dropdownContainer{
-    
     background-color: rgb(27, 27, 26);
     display: flex;
     flex-direction: column;
     position: absolute;
-    
     top: 60px;
     left: 0;
     width: 100%;
@@ -38,13 +36,23 @@
 }
 .dropdownContainer > ul{
     list-style: none;
+    text-align: left;
+    
+}
+.dropdownContainer> ul > li{
+    padding: 10px;
+    border-bottom: 1px solid rgb(145, 145, 145);
+    margin-right: 50px;
+    font-size: medium;
 }
 .dropdownContainer> ul > li:hover{
     color: gray;
     cursor: pointer;
-    
 }
-
+#dropdownSearchBar{
+    margin-left: 10px;
+    margin-top: 5px;
+}
 .nav > ul{
     list-style: none;
     display: flex;

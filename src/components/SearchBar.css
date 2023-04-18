@@ -24,10 +24,17 @@
 }
 @media (max-width: 1000px) {
     #inputSearch {
-      width: 150px;
+      width: 200px;
     }
   }
 
   @media (max-width: 730px) {
-    
+    #inputSearch {
+        width: 300px;
+      }
+  }
+  @media (max-width: 370px) {
+    #inputSearch {
+        width: 200px;
+      }
   }
