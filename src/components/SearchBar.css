@@ -1,14 +1,33 @@
 #searchBarContainer{
     justify-content: center;
-    align-items: center;
     text-align: center;
-    width: 45%;
+    display: flex;
+    margin-right: 5px;
     
-    background-color: brown;
 }
 
 #inputSearch{
-    width: 60%;
-    margin-top: 8px;
-    padding: 8px 20px;
+    padding: 8px;
+    display: flex;
+    width: 300px;
 }
+.searchButton{
+    margin-left: 5px;
+    border-radius: 50%;
+    border: none;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.searchButton:hover{
+    color: aliceblue;
+    background-color: rgb(165, 166, 166);
+}
+@media (max-width: 1000px) {
+    #inputSearch {
+      width: 150px;
+    }
+  }
+
+  @media (max-width: 730px) {
+    
+  }
