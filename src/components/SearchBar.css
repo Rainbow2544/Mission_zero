@@ -9,7 +9,7 @@
 #inputSearch{
     padding: 8px;
     display: flex;
-    width: 300px;
+    width: 400px;
 }
 .searchButton{
     margin-left: 5px;
@@ -22,19 +22,20 @@
     color: aliceblue;
     background-color: rgb(165, 166, 166);
 }
-@media (max-width: 1000px) {
-    #inputSearch {
-      width: 200px;
+@media (max-width: 650px) {
+    #inputSearch{
+        padding: 8px;
+        display: flex;
+        width: 300px;
+    }
+  }
+@media (max-width: 450px) {
+    #inputSearch{
+        padding: 8px;
+        display: flex;
+        width: 200px;
     }
   }
 
-  @media (max-width: 730px) {
-    #inputSearch {
-        width: 300px;
-      }
-  }
-  @media (max-width: 370px) {
-    #inputSearch {
-        width: 200px;
-      }
-  }
+ 
+ 

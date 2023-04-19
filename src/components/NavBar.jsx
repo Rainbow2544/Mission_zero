@@ -35,9 +35,7 @@ const NavBar = () => {
               <li>About us</li>
           </ul>
       </div>
-        <div className='searchBar'>
-          <SearchBar />
-        </div>
+        
         
         <div className='btnContainer'>
           <button className='btn'>Register</button>
@@ -47,9 +45,6 @@ const NavBar = () => {
 
         {isNavOpen && 
         <div className='dropdownContainer'>
-          <div id='dropdownSearchBar'>
-            <SearchBar />
-          </div>
           <ul>
               <li>Home</li>
               <li>Movie</li>
