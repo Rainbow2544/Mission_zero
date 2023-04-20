@@ -2,7 +2,6 @@ import React from 'react';
 import "./ListingItem.css"
 
 const ListingItem = ({listing}) => {
-    
   return (
     <div 
         key={listing.id}
@@ -12,7 +11,6 @@ const ListingItem = ({listing}) => {
         <img className="listingImg" src={listing.img} alt={listing.city}/>
         <p className='cityName'>{listing.city}, {listing.country}</p>
         <div className='des'>
-            
             <p >{listing.des}</p>
         </div>
         

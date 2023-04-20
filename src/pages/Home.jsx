@@ -18,11 +18,7 @@ const Home = () => {
               <SearchBar />
           </div>
         </div>
-        
-          
         <Listing/>
-       
-        
     </div>
   )
 }
