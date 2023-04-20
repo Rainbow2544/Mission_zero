@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Home.css";
 import SearchBar from '../components/SearchBar';
+import Listing from '../components/Listing';
 
 const Home = () => {
   return (
@@ -17,23 +18,11 @@ const Home = () => {
               <SearchBar />
           </div>
         </div>
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
-
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
+        
+          
+        <Listing/>
+       
+        
     </div>
   )
 }

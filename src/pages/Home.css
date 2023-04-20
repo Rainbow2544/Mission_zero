@@ -4,8 +4,6 @@
     background-image: url("https://th.bing.com/th/id/R.c4749a7198cfc52c1126a716a380bbfa?rik=q29%2fgg2f3N4yhA&riu=http%3a%2f%2fwww.getsready.com%2fwp-content%2fuploads%2f2016%2f09%2fkyoto-best-lake-ever.jpg&ehk=o0oo5N9uqnl2CGrPTymfc2OFec82MNLlSsTnq8T3Xi4%3d&risl=&pid=ImgRaw&r=0");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    
-    opacity: 0.9;
 }
 #searchBar{
     position: absolute;
@@ -29,6 +27,7 @@
     text-align: left;
     margin-left: 80px;
 }
+
 @media (max-width:1000px) {
     #header{
         position: absolute;

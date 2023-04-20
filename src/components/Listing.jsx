@@ -1,0 +1,18 @@
+import React, { useState } from 'react';
+import ListingItem from '../components/ListingItem';
+import data from "../data.json";
+import "./Listing.css";
+
+const Listing = () => {
+    const [listingArr, setListingArr] = useState(data["listingArr"]);
+
+  return (
+    <div className='listing'>
+        {listingArr.map((l) => {
+            return (<ListingItem listing={l} />)
+        })}
+    </div>
+  )
+}
+
+export default Listing;
