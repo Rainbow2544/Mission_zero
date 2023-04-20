@@ -11,8 +11,9 @@ const SearchBar = () => {
             type='text'
             placeholder='Search your favorite movies here'
         />
+        <Search id="searchBtn" style={{marginTop: '5px'}}/>
         <button className="searchButton">
-            <Search style={{marginTop: '5px'}}/>
+            Search
         </button>
     </form>
   )
