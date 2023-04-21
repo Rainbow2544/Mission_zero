@@ -6,7 +6,7 @@ import Listing from '../components/Listing';
 const Home = () => {
   return (
     <div>
-        <div className='photoBar'>
+        <div className='photoBgContainer'>
           <div id="bg-gray"></div>
           <div id="header">
             <h1>The great getaway, your way</h1>

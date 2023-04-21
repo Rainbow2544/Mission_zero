@@ -1,4 +1,4 @@
-.photoBar{
+.photoBgContainer{
     width: 100%;
     height: 400px;
     background-image: url("https://th.bing.com/th/id/R.c4749a7198cfc52c1126a716a380bbfa?rik=q29%2fgg2f3N4yhA&riu=http%3a%2f%2fwww.getsready.com%2fwp-content%2fuploads%2f2016%2f09%2fkyoto-best-lake-ever.jpg&ehk=o0oo5N9uqnl2CGrPTymfc2OFec82MNLlSsTnq8T3Xi4%3d&risl=&pid=ImgRaw&r=0");
@@ -22,7 +22,7 @@
 #header{
     position: absolute;
     color: aliceblue;
-    font-size:25px;
+    font-size:23px;
     width: 50%;
     text-align: left;
     margin-left: 80px;
@@ -30,31 +30,18 @@
 
 @media (max-width:1000px) {
     #header{
-        position: absolute;
-        color: aliceblue;
         font-size: 20px;
-        width:50%;
-        text-align: left;
-        margin-left: 80px;
     }
 }
 @media (max-width:720px) {
     #header{
-        position: absolute;
-        color: aliceblue;
-        font-size: 18px;
-        width:70%;
-        text-align: left;
-        margin-left: 80px;
+        font-size: 16px;
     }
 }
 @media (max-width:490px) {
     #header{
-        position: absolute;
-        color: aliceblue;
+        width: 60%;
         font-size: 15px;
-        width:80%;
-        text-align: left;
-        margin-left: 10px;
+        margin-left: 50px;
     }
 }

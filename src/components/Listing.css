@@ -1,19 +1,19 @@
-.listing{
+.listingContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 60px;
+}
+@media screen and (max-width: 1000px) {
+  .listingContainer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 60px;
- }
- @media screen and (max-width: 1000px){
-    .listing{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 20px;
-     }
- }
- @media screen and (max-width: 460px){
-    .listing{
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 10px;
-     }
- }
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .listingContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+}
