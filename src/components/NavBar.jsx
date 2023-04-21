@@ -9,47 +9,48 @@ const NavBar = () => {
     setIsNavOpen(!isNavOpen);
   }
   return (
-    <div className='nav_container'>
+    <div className='navbar'>
       <div className='logo'>
         <a src="/">
           <img 
-          id='logo'
+          id='logoImg'
           alt='logo'
           src='http://www.pngimagesfree.com/LOGO/M/Makemytrip/Make-My-Trip-Logo-PNG.png'/>
         </a>
       </div>
-
-      <div className='dropdownMenu'>
-        <button id="dropdown-btn"
+      <div className='navbar__menu'>
+        <ul >
+              <li><a href="#" className="navbar__menu--links">Home</a></li>
+              <li><a href="#" className="navbar__menu--links">Stays</a></li>
+              <li><a href="#" className="navbar__menu--links">Flights</a></li>
+              <li><a href="#" className="navbar__menu--links">Car rentals</a></li>
+        </ul>
+        <div className='navbar__btnContainer'>
+          <button className='navbar__btn'>Register</button>
+          <button className='navbar__btn'>Sign in</button>
+        </div>
+      </div>
+      
+      <div className='navbar__dropdownMenu'>
+        <button id="navbar__dropdown-btn"
           onClick={handleClick}
         >
           <Menu />
         </button>
       </div>
 
-      <div className='nav'>
-        <ul >
-              <li>Home</li>
-              <li>Stays</li>
-              <li>Flights</li>
-              <li>Car rentals</li>
-        </ul>
-        <div className='btnContainer'>
-          <button className='btn'>Register</button>
-          <button className='btn'>Sign in</button>
-        </div>
-         
-      </div>
-        
-
         {isNavOpen && 
         <div className='dropdownContainer'>
           <ul>
-              <li>Home</li>
-              <li>Stays</li>
-              <li>Flights</li>
-              <li>Car rentals</li>
+              <li><a href="#" className="dropdownContainer--links">Home</a></li>
+              <li><a href="#" className="dropdownContainer--links">Stays</a></li>
+              <li><a href="#" className="dropdownContainer--links">Flights</a></li>
+              <li><a href="#" className="dropdownContainer--links">Car rentals</a></li>
           </ul>
+          <div className='dropdownContainer__btnContainer'>
+            <button className='navbar__btn'>Register</button>
+            <button className='navbar__btn'>Sign in</button>
+          </div>
         </div>
         }
     </div>
