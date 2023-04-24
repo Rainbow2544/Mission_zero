@@ -1,3 +1,5 @@
+
+/* navbar  */
 .navbar {
   height: 60px;
   display: flex;
@@ -7,11 +9,11 @@
   font-weight: 700;
   padding: 4px;
 }
-.logo {
+.navbar__logo {
   margin-left: 40px;
   margin-top: 3px;
 }
-#logoImg {
+#navbar__logoImg {
   width: 130px;
   border-radius: 5px;
   cursor: pointer;
@@ -69,6 +71,8 @@
   background-color: rgb(232, 240, 240);
   transition: all 0.3s ease;
 }
+
+/* dropdownContainer  */
 .dropdownContainer {
   display: none;
   background-color: rgb(255, 255, 255);

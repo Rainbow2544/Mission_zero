@@ -10,11 +10,11 @@ const NavBar = () => {
   }
   return (
     <div className="navbar">
-      <div className="logo">
+      <div className="navbar__logo">
         <a src="/">
           <img
-            id="logoImg"
-            alt="logo"
+            id="navbar__logoImg"
+            alt="navbar__logo"
             src="http://www.pngimagesfree.com/LOGO/M/Makemytrip/Make-My-Trip-Logo-PNG.png"
           />
         </a>
