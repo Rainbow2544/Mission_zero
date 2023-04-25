@@ -9,11 +9,11 @@
   font-weight: 700;
   padding: 4px;
 }
-.navbar__logo {
+.navbar__logoContainer {
   margin-left: 40px;
   margin-top: 3px;
 }
-#navbar__logoImg {
+#navbar__logoContainer--logoImg {
   width: 130px;
   border-radius: 5px;
   cursor: pointer;
@@ -39,14 +39,14 @@
 .navbar__dropdownMenu {
   display: none;
 }
-#navbar__dropdown-btn {
+#navbar__dropdownMenu--btn {
   cursor: pointer;
   margin-right: 20px;
   border: none;
   padding: 8px 10px;
   background-color: white;
 }
-#navbar__dropdown-btn:hover {
+#navbar__dropdownMenu--btn:hover {
   background-color: rgb(232, 240, 240);
   transition: all 0.3s ease;
 }
@@ -55,7 +55,7 @@
   justify-content: center;
   margin-top: 5px;
 }
-.navbar__btn {
+.navbar__btnContainer--btn {
   padding: 12px 15px;
   margin-right: 15px;
   background-color: rgb(252, 252, 252);
@@ -66,7 +66,7 @@
   font-weight: 600;
   font-size: small;
 }
-.navbar__btn:hover {
+.navbar__btnContainer--btn:hover {
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   background-color: rgb(232, 240, 240);
   transition: all 0.3s ease;

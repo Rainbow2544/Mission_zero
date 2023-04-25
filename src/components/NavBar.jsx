@@ -10,10 +10,10 @@ const NavBar = () => {
   }
   return (
     <div className="navbar">
-      <div className="navbar__logo">
+      <div className="navbar__logoContainer">
         <a src="/">
           <img
-            id="navbar__logoImg"
+            id="navbar__logoContainer--logoImg"
             alt="navbar__logo"
             src="http://www.pngimagesfree.com/LOGO/M/Makemytrip/Make-My-Trip-Logo-PNG.png"
           />
@@ -43,13 +43,13 @@ const NavBar = () => {
           </li>
         </ul>
         <div className="navbar__btnContainer">
-          <button className="navbar__btn">Register</button>
-          <button className="navbar__btn">Sign in</button>
+          <button className="navbar__btnContainer--btn">Register</button>
+          <button className="navbar__btnContainer--btn">Sign in</button>
         </div>
       </div>
 
       <div className="navbar__dropdownMenu">
-        <button id="navbar__dropdown-btn" onClick={handleClick}>
+        <button id="navbar__dropdownMenu--btn" onClick={handleClick}>
           <Menu />
         </button>
       </div>
@@ -79,8 +79,8 @@ const NavBar = () => {
             </li>
           </ul>
           <div className="dropdownContainer__btnContainer">
-            <button className="navbar__btn">Register</button>
-            <button className="navbar__btn">Sign in</button>
+            <button className="navbar__btnContainer--btn">Register</button>
+            <button className="navbar__btnContainer--btn">Sign in</button>
           </div>
         </div>
       )}
