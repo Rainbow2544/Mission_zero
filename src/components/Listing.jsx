@@ -7,7 +7,7 @@ const Listing = () => {
   const [listingArr, setListingArr] = useState(data["listingArr"]);
   useEffect(() => {
     setListingArr(data["listingArr"]);
-  });
+  },[]);
   return (
     <div className="listingContainer">
       {listingArr.map((l) => {

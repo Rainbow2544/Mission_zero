@@ -6,12 +6,12 @@ const SearchBar = () => {
   return (
     <form id="searchBarContainer">
       <input
-        id="inputSearch"
+        id="searchBarContainer--input"
         type="text"
         placeholder="Search your favorite places, hotels here"
       />
-      <button className="searchButton">
-        <Search id="searchLogo" />
+      <button className="searchBarContainer--button">
+        <Search id="searchBarContainer--button--searchLogo" />
       </button>
     </form>
   );
