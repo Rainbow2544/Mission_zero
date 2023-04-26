@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./NavBar.css";
-import { Menu } from "@material-ui/icons";
+import { TfiMenu } from "react-icons/tfi";
 
 const NavBar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -50,7 +50,7 @@ const NavBar = () => {
 
       <div className="navbar__dropdownMenu">
         <button id="navbar__dropdownMenu--btn" onClick={handleClick}>
-          <Menu />
+          <TfiMenu />
         </button>
       </div>
 

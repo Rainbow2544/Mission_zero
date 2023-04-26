@@ -41,6 +41,7 @@
 }
 #navbar__dropdownMenu--btn {
   cursor: pointer;
+  font-size: 1.3rem;
   margin-right: 20px;
   border: none;
   padding: 8px 10px;
