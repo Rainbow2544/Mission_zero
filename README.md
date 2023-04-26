@@ -1,12 +1,5 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
 
 
@@ -23,14 +16,14 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/rainbow-ou-596a43204/)
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/Rainbow2544/Mission_zero.git">
     <img src="http://www.pngimagesfree.com/LOGO/M/Makemytrip/Make-My-Trip-Logo-PNG.png" alt="Logo" width="280" height="80">
   </a>
 
@@ -39,14 +32,14 @@
   <p align="center">
     Project description: A web home page that imitates a travel website.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Rainbow2544/Mission_zero.git"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/Rainbow2544/Mission_zero.git">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/Rainbow2544/Mission_zero.git/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/Rainbow2544/Mission_zero.git/issues">Request Feature</a>
   </p>
 </div>
 
@@ -83,9 +76,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<div align="center">
+  
+   <img src="src/images/screenshot.png" alt="screenshot" width="600" height="400">
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+  <p align="center">
+ </div>
+
+My mission zero project used reactJS, CSS, and JavaScript to build a web home page. It features a navbar with links, registration and login buttons, and a search bar section. Below the search bar section is a listing section that displays items in three columns, each of which scales up when the mouse hovers over them with a box-shadow effect.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
