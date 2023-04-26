@@ -1,6 +1,6 @@
 import React from "react";
 import "./SearchBar.css";
-import { Search } from "@material-ui/icons";
+import { AiOutlineSearch } from "react-icons/ai";
 
 const SearchBar = () => {
   return (
@@ -11,7 +11,7 @@ const SearchBar = () => {
         placeholder="Search your favorite places, hotels here"
       />
       <button className="searchBarContainer--button">
-        <Search id="searchBarContainer--button--searchLogo" />
+        <AiOutlineSearch id="searchBarContainer--button--searchLogo" />
       </button>
     </form>
   );
