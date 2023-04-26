@@ -35,7 +35,7 @@
     <a href="https://github.com/Rainbow2544/Mission_zero.git"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Rainbow2544/Mission_zero.git">View Demo</a>
+    <a href="https://mission-zero-d2eu.vercel.app/">View Demo</a>
     ·
     <a href="https://github.com/Rainbow2544/Mission_zero.git/issues">Report Bug</a>
     ·
