@@ -123,14 +123,6 @@ My mission zero project used reactJS, CSS, and JavaScript to build a web home pa
 
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -139,8 +131,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 - [x] Add back to top links
 - [ ] Add Changelog
-- [ ] Feature 3
-    - [ ] Nested Feature
+
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
@@ -189,9 +180,9 @@ Project Link: [Mission zero(Make my trip)](https://github.com/Rainbow2544/Missio
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [React Icons](https://react-icons.github.io/react-icons/search)
+* [GitHub Pages](https://pages.github.com)
+* [Font Awesome](https://fontawesome.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
